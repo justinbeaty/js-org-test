@@ -11,8 +11,13 @@ var Mage = Mage ?? {};
 Mage.Util ??= {};
 Mage.Util.Dom ??= {};
 
-
-Mage.Util.Dom.setMessagesDiv = function () {
+/**
+ * Set a message in <div id="messages"></div>
+ *
+ * @param {string} message - text value of the message to display
+ * @param {string} type - one of `success|error|notice`
+ */
+Mage.Util.Dom.setMessagesDiv = function (message, type = 'success') {
     console.log('Called Mage.Util.Dom.setMessagesDiv()');
 }
 
