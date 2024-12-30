@@ -13,6 +13,6 @@ Mage.Adminhtml.Catalog ??= {};
 
 Mage.Adminhtml.Catalog.Category = class {
     constructor() {
-        // ...
+        console.log('Called new Mage.Adminhtml.Catalog.Category()');
     }
 };

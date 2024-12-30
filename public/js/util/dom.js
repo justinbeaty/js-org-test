@@ -13,9 +13,10 @@ Mage.Util.Dom ??= {};
 
 
 Mage.Util.Dom.setMessagesDiv = function () {
-
+    console.log('Called Mage.Util.Dom.setMessagesDiv()');
 }
 
 
 Mage.Util.Dom.popWin = function () {
+    console.log('Called Mage.Util.Dom.popWin()');
 }
