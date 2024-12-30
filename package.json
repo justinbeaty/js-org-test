@@ -1,0 +1,9 @@
+{
+  "name": "js-org",
+  "scripts": {
+    "doc": "jsdoc -r public/js/ -d public/docs"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.4"
+  }
+}
