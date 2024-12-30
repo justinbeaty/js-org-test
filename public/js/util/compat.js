@@ -1,4 +1,4 @@
 
 
 const popWin = Mage?.Util?.Dom?.popWin;
-const formatCurrency = Mage?.Util?.formatCurrency;
+const setMessagesDiv = Mage?.Util?.Dom?.setMessagesDiv;
