@@ -1,4 +1,4 @@
 
 
-const popWin = Mage?.Util?.Dom?.popWin;
-const setMessagesDiv = Mage?.Util?.Dom?.setMessagesDiv;
+const popWin = (...args) => Mage?.Util?.Dom?.popWin(...args);
+const setMessagesDiv = (...args) => Mage?.Util?.Dom?.setMessagesDiv(...args);
