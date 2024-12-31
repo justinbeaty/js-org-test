@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <title>Test</title>
     <script src="js/mage/adminhtml/catalog/category.js"></script>
-    <script src="js/util/dom.js"></script>
-    <script src="js/util/compat.js"></script>
+    <script src="js/mage/util/dom.js"></script>
+    <script src="js/mage/util/compat.js"></script>
   </head>
   <body>
     <a href="/docs/">Docs</a>
 
     <script>
-      new Mage.Adminhtml.Catalog.Category();
+      const cat = new Mage.Adminhtml.Catalog.Category();
+      const sub = new Mage.Adminhtml.Catalog.SubCategory();
+      sub.foo();
 
       Mage.Util.Dom.setMessagesDiv();
       setMessagesDiv();

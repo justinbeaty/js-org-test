@@ -6,7 +6,7 @@
  */
 
 /** @namespace Mage */
-Mage ??= {};
+var Mage = Mage ?? {};
 
 /** @namespace Mage.Util */
 Mage.Util ??= {};
